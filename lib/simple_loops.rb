@@ -39,6 +39,7 @@ def string_array(array)
   new_array = []
   while count < array.length do
     new_array << array[count].to_s
+    puts new_array
     #array[count] = array[count].to_s
     #array.collect{|i| i.to_s}
     count += 1

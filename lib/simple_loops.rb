@@ -32,3 +32,18 @@ def return_string_array(array)
   end
   array
 end
+
+
+def string_array(array)
+  count = 0
+  new_array = []
+  while count < array.length do
+    new_array << array[count].to_s
+    #array[count] = array[count].to_s
+    #array.collect{|i| i.to_s}
+    count += 1
+  end
+  new_array
+end
+stuff = [1,2,3]
+string_array(stuff)
